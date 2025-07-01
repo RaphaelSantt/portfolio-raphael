@@ -1,0 +1,152 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Fonte do Titulo principal */
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+    
+}
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  
+}
+
+
+/* Titulo principal */
+
+.container{
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;           /* ocupa a tela inteira */
+  background: linear-gradient(to left, #2C64E6, #4E9AE6) ;
+}
+
+.container .box{
+   
+    
+    width: auto;
+    height: auto;
+    
+    
+   
+}
+
+/* "FULLSTACK" */
+.container .box .TituloPrincipal{
+
+    
+    margin-top: 10px;
+    font-size: 75px;
+    color: white;
+    font-family: sans-serif, Bebas Neue;
+    font-style: italic ;
+    line-height: 0.8;
+    padding: 0;
+    justify-content: center; 
+    align-items: center;     
+    margin-left: 7px;
+    
+}
+
+/* "OLÁ ME CHAMO RAPHAEL" */
+
+.container .box .meuNome{
+  font-size: 25px;
+    font-family: system-ui, Boldonse;
+    font-style: normal;
+    color: #202933;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1;
+    margin-bottom: 2px;
+    margin-left: 7px;
+}
+
+/* "DEVELOPER" */
+
+.container .box .DEVELOPER{
+    
+    font-size: 145px;
+    font-family: system-ui, Boldonse;
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1;
+    margin-left: 0%;
+    line-height: 0.8;
+    padding: 0;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+
+ 
+}
+
+/* ICONES */
+
+.container .box .TituloPrincipal .Icones .icone{
+
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.container .box .TituloPrincipal .Icones .icone:hover{
+  transform: scale(1.2);
+  filter: brightness(1.3);
+  cursor: pointer;
+  
+}
+
+/* SOBRE MIM */
+
+.container .box .resumo{
+
+  font-size: 25px;
+    font-family: system-ui, Boldonse;
+    text-align: right;
+    font-style: normal;
+    color: #202933;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 7px;
+    
+
+}
+
+.projetos{
+
+  border-top: 3px solid #202933 ;
+    background: linear-gradient( white) ;
+  height: 100vh;   
+     
+  
+}
+
+.projetos .cabeçalho{
+   
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100px;
+  font-size: 20px;
+  font-family: system-ui, Boldonse;
+  color: #202933;
+  
+}
+
+

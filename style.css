@@ -40,6 +40,37 @@
    
 }
 
+/* "HEADER" */
+
+.header{
+
+  height: 80px;
+  background-color: #202933;
+}
+
+.header p{
+  color: aliceblue;
+  font-family: "Boldonse", system-ui;
+}
+
+.nav{
+  display: flex;
+  justify-content: right;
+  gap: 50px;
+  margin-right: 250px;
+  padding-top: 26px;
+}
+
+.nav a{
+
+  color: aliceblue;
+  font-family: "Boldonse", system-ui;
+  font-size: small;
+ 
+  
+  
+}
+
 /* "FULLSTACK" */
 .container .box .TituloPrincipal{
 
